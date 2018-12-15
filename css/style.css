@@ -8,7 +8,19 @@ background-size: cover;
 	
 text-align: center;
 	
-
+background-attachment: fixed;
+	
+background-position: center center;
+}
+.navbar{
+	position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+.btn-success:hover {
+    color: #fff;
+    background-color: transparent;
+    border-color: #1e7e34;
 }
 .vh{
 	min-height: 100vh;
